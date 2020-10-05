@@ -1,0 +1,4 @@
+getData("www.cnn.com")
+getData("http://echo.jsontest.com/fieldkey/fieldvalue/purpose/test",headers='{"Customheader":"CS"}')
+getData("http://echo.jsontest.com/fieldkey/fieldvalue/purpose/test",headers=list(Customheader="CS"))
+getData("www.cnn.com",cached=FALSE)
